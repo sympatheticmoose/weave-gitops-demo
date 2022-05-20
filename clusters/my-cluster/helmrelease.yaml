@@ -12,12 +12,11 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: ww-gitops
-      version: 2.0.7
   interval: 1m0s
   values:
     adminUser:
       create: true
-      passwordHash: $2a$10$Bex8ghY2tdfG5VaNHiBhhO6Mtpx1QJk2Xh5O6bi1LPpqyx8qXlfQK
+      passwordHash: $2a$10$ns6c.prXZVQb1Ud.RB7/2e5anzMZmjrmn5ETAU893n2gQVM5P3/aG
       username: admin
     image:
       tag: 0.8.1-rc.4
